@@ -71,7 +71,7 @@ function welcome() {
   let username = readlineSync.question("What's your name ? ");
   console.log("welcome " + username + "!!! \n");
   console.log(
-    "Lets play an interesting quiz. Each correct answer will increase your score by 1 and according to your scores you'll be decided as which Tier player you are.\n"
+    "Lets play an interesting quiz. Choose correct option among a, b, c, d only. Each correct answer will increase your score by 1 and according to your scores you'll be decided as which Tier player you are.\n"
   );
 }
 
